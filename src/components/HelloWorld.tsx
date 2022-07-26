@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const HelloWorld: React.FunctionComponent = () => {
+const HelloWorld: React.FC = () => {
   useEffect(() => {
     console.log('Welcome');
   }, []);
